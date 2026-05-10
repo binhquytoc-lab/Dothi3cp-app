@@ -12,9 +12,9 @@ st.title('Vẽ biểu đồ giá đóng cửa của 3 cổ phiếu tại Việt 
 st.write('Nhập tên 3 mã cổ phiếu và ngày bắt đầu muốn vẽ biểu đồ giá đóng cửa')
 
 # Bước 3: Ô nhập mã cổ phiếu
-stock1 = st.text_input('Nhập mã cổ phiếu thứ 1', 'VCB.VN')
+stock1 = st.text_input('Nhập mã cổ phiếu thứ 1', 'HPG.VN')
 stock2 = st.text_input('Nhập mã cổ phiếu thứ 2', 'FPT.VN')
-stock3 = st.text_input('Nhập mã cổ phiếu thứ 3', 'HPG.VN')
+stock3 = st.text_input('Nhập mã cổ phiếu thứ 3', 'VCB.VN')
 
 # Bước 4: Ô nhập ngày bắt đầu
 start_date = st.date_input(
