@@ -67,5 +67,5 @@ if st.button('Vẽ biểu đồ'):
         latest_price = close_prices[stock].dropna().iloc[-1]
 
         st.write(
-            f'{stock}: {latest_price:.0f}, "đồng/cổ phiếu"'
+            f'{stock}: {latest_price:.0f} đồng/cổ phiếu'
         )
