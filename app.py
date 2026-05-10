@@ -60,12 +60,12 @@ if st.button('Vẽ biểu đồ'):
     st.pyplot(fig)
 
     # Hiển thị giá mới nhất
-    st.subheader('Giá đóng cửa mới nhất')
+    st.subheader('Giá đóng cửa ngày giao dịch gần nhất')
 
     for stock in stocks:
 
         latest_price = close_prices[stock].dropna().iloc[-1]
 
         st.write(
-            f'{stock}: {latest_price:.0f}'
+            f'{stock}: {latest_price:.0f}, "đồng/cổ phiếu"'
         )
