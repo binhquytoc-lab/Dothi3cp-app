@@ -60,7 +60,7 @@ if st.button('Vẽ biểu đồ'):
     st.pyplot(fig)
 
     # Hiển thị giá mới nhất
-    st.subheader('Giá đóng cửa ngày giao dịch gần nhất')
+    st.subheader('Giá đóng cửa của ngày giao dịch gần nhất')
 
     for stock in stocks:
 
